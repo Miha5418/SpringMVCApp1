@@ -1,4 +1,4 @@
-package ru.karpeykin.springcourse;
+package ru.karpeykin.springcourse.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @Date 28.12.2020
  */
 @Controller
-public class HelloController {
+public class SecondController {
 
-    @GetMapping("/hello-world")
-    public String sayHello(){
-        return "hello_world";
+    @GetMapping("/exit")
+    public String exit(){
+        return "second/exit";
     }
 }
