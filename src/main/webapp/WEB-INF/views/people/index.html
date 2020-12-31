@@ -9,6 +9,13 @@
 <div th:each="person : ${people}">
     <a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getName()}">User</a>
 </div>
+<br>
+<div>
+    <a th:href="@{/people/new}">
+        <button>Add new person</button>
+    </a>
+
+</div>
 
 </body>
 </html>
