@@ -14,7 +14,7 @@ import org.thymeleaf.spring5.view.ThymeleafViewResolver;
 
 /**
  * @author karpeykin
- * @Date 28.12.2020
+ * @Date 31.12.2020
  */
 @Configuration
 @ComponentScan("ru.karpeykin.springcourse")
